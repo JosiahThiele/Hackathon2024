@@ -8,7 +8,8 @@
 .home,
 .information,
 .games,
-.sign-up {
+.websites,
+.dev {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -26,19 +27,32 @@
 }
 
 .games {
-  background-image: url('../public/images/img-1.jpg');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
+  color: #000;
   font-size: 100px;
 }
 
-.sign-up {
+.websites {
   background-image: url('../public/images/img-8.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+
+.dev {
+  background-image: url('../public/images/img-8.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.game-header {
+  background-color: red; /* Set the background color to red */
+  color: white; /* You can adjust the text color accordingly */
+  padding: 30px; /* Adjust the padding as needed */
+  text-align: center; /* Center the text */
+  font-size: 24px; /* Adjust the font size as needed */
 }
