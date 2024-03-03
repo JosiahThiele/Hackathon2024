@@ -41,7 +41,7 @@ function HeroSection() {
           <select id="videoSelect" onChange={handleVideoChange} value={selectedVideo}>
             <option value="math-background.mp4">Math Background</option>
             <option value="reading.mp4">Reading Background</option>
-            <option value="monkeSpin.mp4">Monkey 2 ⭐</option>
+            <option value="monkeSpin.mp4">Spinning Monkeys 3D</option>
             <option value="spinMonke.mp4">Spinning Monkeys</option>
           </select>
           
