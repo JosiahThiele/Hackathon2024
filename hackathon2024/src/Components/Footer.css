@@ -1,49 +1,18 @@
 .footer-container {
-  background-color: #242424;
-  padding: 4rem 0 2rem 0;
-  display: flek;
-  flex-direction: column;
-  justify-content: center;
+  position: relative;
+  background-image: url('/public/images/bg_pattern2.png'); /* Set your repeating background image */
+  background-repeat: repeat;
+  display: flex;
   align-items: center;
-}
-
-.footer-subscription {
+  justify-content: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  margin-bottom: 24px;
-  padding: 24px;
-  color: #fff;
-
 }
 
-.footer-subscription>p{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-  
-}
 
-.footer-subscription-heading{
-  margin-bottom:24px;
-  font-size:24px;
-}
 
-.footer-subscription-text {
-  margin-bottom: 24px;
-  font-size: 20px;
-}
-
-.footer-input{
-  padding: 8px 20px;
-  border-radius: 2px;
-  margin-right: 10px;
-  outline: none;
-  border: none;
-  font-size: 18px;
-  margin-bottom:16px;
-  border: 1px solid #fff;
-}
 
 .footer-links{
   width:100%;
@@ -60,22 +29,27 @@
   display:flex;
   text-align: left;
   width:160;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
-  margin:16px;
-  box-sizing: border-box;
+  margin-bottom:16px;
+  
+}
+.footer-link-items a::after {
+  content: ' | '; /* Add the separator after each link */
+  margin-left: 4px; /* Adjust the spacing between link and separator */
+}
+.footer-link-items a::before {
+  content: ' | '; /* Add the separator after each link */
+  margin-left: 4px; /* Adjust the spacing between link and separator */
 }
 
-.footer-link-items h2 {
-  margin-bottom: 16px;
-}
 
 .footer-link-items > h2 {
-  color: #fff;
+  color: #FF1C00;
 }
 
 .footer-link-items a {
-  color: #fff;
+  color: #FF1C00;
   text-decoration: none;
   margin-bottom:8px;
 
@@ -111,7 +85,6 @@
   align-items:center;
   width: 90%;
   max-width: 1000px;
-  margin: 40px auto 0 auto;
 }
 
 .social-icons{
@@ -122,8 +95,7 @@
 }
 
 .social-logo {
-  color: #fff;
-  margin-left: 20px;
+  color: #FF1C00;
   justify-self: start;
   cursor: pointer;
   text-decoration: none;
@@ -134,8 +106,7 @@
 }
 
 .website-rights{
-  color:#fff;
-  margin-bottom:16px;
+  color:#FF1C00;
 }
 
 @media screen and (max-width: 820px){
