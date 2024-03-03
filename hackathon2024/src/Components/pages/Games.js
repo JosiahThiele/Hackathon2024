@@ -8,7 +8,11 @@ export default function Games(){
     <>
       <div>
         <TicTacToe/>
+<<<<<<< HEAD
         <Footer/>
+=======
+        <Footer />
+>>>>>>> d44fdf87eff32909b0282784f49781974e72a3d6
       </div>
     </>
   )
