@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: 'PT Sans', sans-serif;
+
 }
 
 .home,
@@ -31,14 +32,148 @@
   font-size: 100px;
 }
 
-.websites {
-  background-image: url('../public/images/img-8.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+/* App.css */
+.websites-container {
+  position: relative;
+  background-image: url('../public/images/bg_pattern2.png'); /* Set your repeating background image */
+  background-repeat: repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.square {
+  background-color: #007bff;
+  width: 1000px;
+  height: 650px;
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  border-radius: 50px 50px 50px 50px; /* Adjust values to control the curvature */
+
+}
+
+.websites-header {
+  font-family: 'Comic Sans MS', cursive;
+  color: white;
+  font-size: 40px;
+  margin-bottom:10px;
+}
+
+.websites-container {
+  padding:10px;
+  align-items: flex-start; /* Align items to the start (top) of the container */
+}
+
+.websites-text {
+  font-family: 'Comic Sans MS', cursive;
+  color: white;
+  font-size: 18px;
+  margin-top: 0;
+}
+
+/* Inside your app.css */
+.inner-squares {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  height: 100%; /* Make the inner-squares take up the full height of the .square container */
+}
+
+/* Inside your app.css */
+/* Inside your app.css */
+.inner-squares {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  height: 100%; /* Make the inner-squares take up the full height of the .square container */
+}
+
+.inner-square {
+  flex: 1;
+  height: 100%;
+  margin-top: 10px;
+  border-radius: 10px; /* Adjust the border-radius for curved edges */
+}
+
+.red h2,
+.yellow h2{
+  font-family: 'Comic Sans MS', cursive;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+
+.red {
+  width: 40%; /* Adjust the width of the red square */
+  background-color: #e74c3c;
+  margin-right: 10px; /* Adjust the margin to create space between red and blue */
+  margin-left: 25px;
+
+}
+
+.yellow {
+  width: 40%; /* Adjust the width of the yellow square */
+  background-color: #f1c40f;
+  margin-left: 10px;
+  margin-right: 25px;
+}
+
+/* Inside your app.css */
+/* ... (previous styles) */
+
+.website-list ul {
+  list-style-type: none; /* Remove list bullet points */
+  padding: 10px; /* Remove default padding for the list */
+}
+
+.website-list ul li {
+  margin-bottom: 10px; /* Add spacing between website boxes */
+}
+
+.website-box {
+  background-color: white; /* Set background color to white */
+  padding: 10px; /* Add padding to the website box for spacing */
+  border-radius: 8px; /* Adjust border-radius for curved edges */
+  border: 2px solid black; /* Add black border */
+  width: 100%;
+  display: flex; /* Use flexbox for layout */
+}
+
+.website-box a {
+  display: flex; /* Use flexbox for layout */
+  text-decoration: none; /* Remove default underline for links */
+  color: inherit; /* Inherit text color from the parent */
+}
+
+.website-box img {
+  width: 50px; /* Set a fixed width for the image (adjust as needed) */
+  height: 50px; /* Set a fixed height for the image (adjust as needed) */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire box */
+  border-radius: 4px; /* Adjust border-radius for curved edges */
+  margin-right: 10px; /* Add spacing between the image and text */
+}
+
+.website-box h3 {
+  text-decoration:underline;
+  margin: 0; /* Remove default margin for h3 */
+  color: orangered; /* Set the font color to blue */
+
+}
+
+.website-box p {
+  text-align: left;
+  margin: 0; /* Remove default margin for p */
+}
+
+
+
+
+
 
 .dev {
   background-image: url('../public/images/img-8.jpg');
@@ -50,9 +185,9 @@
 }
 
 .game-header {
-  background-color: red; /* Set the background color to red */
-  color: white; /* You can adjust the text color accordingly */
-  padding: 30px; /* Adjust the padding as needed */
-  text-align: center; /* Center the text */
-  font-size: 24px; /* Adjust the font size as needed */
+  background-color: red; 
+  color: white; 
+  padding: 30px; 
+  text-align: center; 
+  font-size: 24px; 
 }
