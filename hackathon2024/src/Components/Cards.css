@@ -1,6 +1,7 @@
 .cards {
   padding: 4rem;
-  background: #fff;
+  background-image: url('../../public/images/bg_pattern2.png'); /* Set your repeating background image */
+  background-repeat: repeat;
 }
 
 h1 {
@@ -26,6 +27,7 @@ h1 {
 }
 
 .cards__item {
+  background-color: #fff;
   display: flex;
   flex: 1;
   margin: 0 1rem;

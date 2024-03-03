@@ -18,14 +18,7 @@
   font-size: 3rem;
 }
 
-.information {
-  background-image: url('../public/images/img-2.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
+
 
 .games {
   color: #000;
@@ -171,8 +164,55 @@
 }
 
 
+/* Inside your app.css */
+.information-container {
+  position: relative;
+  background-image: url('../public/images/bg_pattern2.png');
+  background-repeat: repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.information-box {
+  font-family: 'Comic Sans MS', cursive;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  max-width: 800px; /* Adjust the max-width as needed */
+  text-align: center;
+}
 
+.information-box h1 {
+  font-family: "Comic Sans MS", cursive;
+
+  font-size: 2rem;
+  color: #333; /* Adjust the text color as needed */
+}
+
+.information-box p {
+  font-family: "Comic Sans MS", cursive;
+  padding: 10px;
+  font-size: 1.2rem;
+  color: grey; /* Adjust the text color as needed */
+  line-height: 1.5;
+}
+
+.information-box li {
+  font-family: "Comic Sans MS", cursive;
+  color: blue;
+  text-align: left;
+  list-style-type: none; /* Remove bullet points from the unordered list */
+  padding: 0; /* Remove default padding for the unordered list */
+  margin-left: 0; /* Remove default margin for the unordered list */
+}
+
+.information-box strong {
+  font-size: 20px;
+}
 
 
 .dev {
