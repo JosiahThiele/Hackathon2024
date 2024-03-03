@@ -11,7 +11,7 @@ function Cards() {
         <ul className='cards__items'>
             <CardItem
               src='images/tic-math-toe.jpg'
-              text='Tic Math Toe'
+              text='Tic Math Monkey'
               label='Math'
               path='/games'
             />

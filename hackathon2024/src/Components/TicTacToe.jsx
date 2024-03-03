@@ -129,7 +129,7 @@ const TicTacToe = () => {
     return (
         <div className= 'container'>
             <ht className="title" ref={titleRef}>
-                Tic Tac Toe <span>Math Monkey</span>
+                Tic <span>Math Monkey</span>
             </ht>
 
             {showMathQuestion && <MathQuestion questions={mathQuestion.questions} onSubmit={mathQuestion.onSubmit} />}
