@@ -42,7 +42,7 @@ function HeroSection() {
           <option value="video-1.mp4">Basic 2</option>
           <option value="video-2.mp4">Monkey 1</option>
           <option value="monkeSpin.mp4">Monkey 2 ⭐</option>
-          <option value="video-3.mp4">Roblox</option>
+          <option value="spinMonke.mp4">Spinning Monkeys</option>
           
           
         </select>
