@@ -7,10 +7,10 @@ import Footer from '../Footer'
 //INSERT WEBSITES IN HERE *************
 const mathWebsiteData = [
   {//Use this first Entry as an example. If you want to add an image, place it in the images folder which is in the public folder.
-    title: 'Website 1',
+    title: 'Khan Academy',
     image: '/images/img-1.jpg',
-    description: 'Description for Website 1.Description for Website 1.Description for Website 1.Description for Website 1.Description for Website 1.Description for Website 1.Description for Website 1.Description for Website 1.Description for Website 1.',
-    link: 'https://www.google.com',
+    description: 'Has great free lessons that can help anyone with math!',
+    link: 'https://www.khanacademy.org/',
   },
   {
     title: 'Website 2',
