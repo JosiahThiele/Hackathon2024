@@ -18,14 +18,7 @@
   font-size: 3rem;
 }
 
-.information {
-  background-image: url('../public/images/img-2.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
+
 
 .games {
   color: #000;
@@ -170,6 +163,39 @@
   margin: 0; /* Remove default margin for p */
 }
 
+
+/* Inside your app.css */
+.information-container {
+  position: relative;
+  background-image: url('../public/images/bg_pattern2.png');
+  background-repeat: repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.information-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  max-width: 800px; /* Adjust the max-width as needed */
+  text-align: center;
+  margin-top: -500px; /* Adjust the margin-top to create space from the top */
+}
+
+.information-box h1 {
+  font-size: 2rem;
+  color: #333; /* Adjust the text color as needed */
+}
+
+.information-box p {
+  font-size: 1.2rem;
+  color: #555; /* Adjust the text color as needed */
+  line-height: 1.5;
+}
 
 
 
