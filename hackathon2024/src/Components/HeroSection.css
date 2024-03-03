@@ -7,6 +7,8 @@ video {
 
 }
 
+
+
 .hero-container {
   /*background: url('./images/img-home.jpg') center center/cover
   no-repeat;*/
@@ -20,20 +22,24 @@ video {
   object-fit: contain;
 }
 
-.hero-container > h1 {
+.hero-box {
+  background-color: #FF1C00;
+  margin-left:10px;
+  width: 450px; /* Adjust the width as needed */
+  height: 270px; /* Adjust the height as needed */
+  border-radius: 50px; /* Adjust the border radius for curved edges */
+  border: 5px solid #000; /* Add an outline with a 2px solid black border */
+
+}
+
+.hero-box > h1 {
+  text-align: center;
   color: #fff;
   font-size: 100px;
-  margin-top: -100px;
 }
 
-.hero-container > p {
-  margin-top: 8px;
-  color: #fff;
-  font-size: 32px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.hero-container > p {
+.hero-box > p {
+  text-align: center;
   margin-top: 8px;
   color: #fff;
   font-size: 32px;
@@ -41,6 +47,8 @@ video {
 }
 
 .hero-btns{
+  align-items: center;
+  margin-left: 70px;
   margin-top: 32px;
 }
 
@@ -50,8 +58,9 @@ video {
 
 .fa-play.circle{
   margin-left: 4px;
-  
 }
+
+
 
 @media screen and (max-width: 960px){
   .hero-container > h1 {

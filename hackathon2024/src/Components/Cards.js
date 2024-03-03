@@ -10,29 +10,28 @@ function Cards() {
         <div className="cards__wrapper">
         <ul className='cards__items'>
             <CardItem
-              src='images/img-7.jpg'
-              text='Reach the End'
-              label='Reading'
+              src='images/tic-math-toe.jpg'
+              text='Tic Math Toe'
+              label='Math'
               path='/games'
             />
             <CardItem
-              src='images/img-4.jpg'
-              text='Escape the Island'
-              label='Math'
+              src='images/coming-soon.jpeg'
+              text='More games coming soon'
+              label='Reading'
               path='/games'
             />
           </ul>
           <h1>or these other GREAT websites!</h1>
-
           <ul className='cards__items'>
             <CardItem
-              src='images/img-1.jpg'
+              src='images/math-signs.png'
               text='Math Websites'
               label='Math'
               path='/websites'
             />
             <CardItem
-              src='images/img-3.jpg'
+              src='images/monkey-reading.png'
               text='Reading Websites'
               label='Reading'
               path='/websites'
@@ -40,18 +39,11 @@ function Cards() {
           </ul>
           <ul>
           <CardItem
-              src='images/img-6.jpg'
+              src='images/more-info.png'
               text='Wow these are many words to keep all these cards big, i wonder why it does this? This will be the information btw'
-              label='!!!'
+              label='Check out more Information Here!'
               path='/information'
-            />
-          </ul>
-          <ul>
-          <CardItem
-              src='images/img-home.jpg'
-              text='Dev website'
-              label='🪦'
-              path='/dev'
+              color='#fff'
             />
           </ul>
         </div>
