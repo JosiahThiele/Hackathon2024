@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../App.css'
 import TicTacToe from '../TicTacToe'
+import Footer from '../Footer'
 
 export default function Games(){
   return (
@@ -9,6 +10,7 @@ export default function Games(){
 
       <div>
         <TicTacToe/>
+        <Footer />
       </div>
     </>
   )
