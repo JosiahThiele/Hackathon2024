@@ -10,7 +10,7 @@
     align-items: center;  
 }
 .title span{
-    color: #26ffcb;
+    color: #5f54fe;
     padding-left: 15px;
 }
 .reset{
@@ -22,7 +22,7 @@
     border-radius: 50px;
     background: #424e66;
     font-size: 26px;
-    color:#26ffcb;
+    color:#5f54fe;
     margin-top: 25px;
     margin-bottom: 50px;
 }
